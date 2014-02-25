@@ -27,23 +27,6 @@
 	}
 }
 
-- (void)viewDidLoad
-{
-	[super viewDidLoad];
-	
-	NSCalendar* calendar = [NSCalendar currentCalendar];
-	NSDate* today = [NSDate date];
-	NSDateComponents* sixtyFiveYearsAgoComponents = [[NSDateComponents alloc] init];
-	[sixtyFiveYearsAgoComponents setYear:-65];
-	NSDate* sixtyFiveYearsAgo = [calendar dateByAddingComponents:sixtyFiveYearsAgoComponents toDate:today options:0];
-	[dobPicker setMaximumDate:sixtyFiveYearsAgo];
-	
-	NSDateComponents* hundredYearsAgoComponents = [[NSDateComponents alloc] init];
-	[hundredYearsAgoComponents setYear:-100];
-	NSDate* hundredYearsAgo = [calendar dateByAddingComponents:hundredYearsAgoComponents toDate:today options:0];
-	[dobPicker setMinimumDate:hundredYearsAgo];
-}
-
 
 #pragma mark - QuestioneeDetailsViewController Implementation
 
