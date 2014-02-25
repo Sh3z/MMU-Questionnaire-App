@@ -1,0 +1,819 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E05A9D9183D480B00556871 /* iPadUsabilityQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E05A9D8183D480B00556871 /* iPadUsabilityQuestionViewController.m */; };
+		6E41746D183D71B400B3DD67 /* QuestionnaireResponseBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E41746C183D71B400B3DD67 /* QuestionnaireResponseBuilder.m */; };
+		6E417471183D776A00B3DD67 /* QuestioneeDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E417470183D776A00B3DD67 /* QuestioneeDetailsViewController.m */; };
+		6E417474183D800500B3DD67 /* UsedBeforeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E417473183D800500B3DD67 /* UsedBeforeViewController.m */; };
+		6E417477183D818400B3DD67 /* MainUseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E417476183D818400B3DD67 /* MainUseViewController.m */; };
+		6E41747A183D827000B3DD67 /* WouldUseAgainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E417479183D827000B3DD67 /* WouldUseAgainViewController.m */; };
+		6E41747E183D864000B3DD67 /* CompletionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E41747D183D864000B3DD67 /* CompletionViewController.m */; };
+		6E417480183D879200B3DD67 /* QuestionnaireTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E41747F183D879200B3DD67 /* QuestionnaireTabViewController.m */; };
+		6E41748F183E2AD200B3DD67 /* LocationAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E41748E183E2AD200B3DD67 /* LocationAssistant.m */; };
+		6E417492183E37B800B3DD67 /* CoreDataAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E417491183E37B800B3DD67 /* CoreDataAssistant.m */; };
+		6E4174A9183E4A2600B3DD67 /* ResponsesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4174A8183E4A2600B3DD67 /* ResponsesTableViewController.m */; };
+		6E4174AF183E739400B3DD67 /* ResponseTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4174AE183E739400B3DD67 /* ResponseTabViewController.m */; };
+		6E4F2D31182A45A4005158DD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4F2D30182A45A4005158DD /* CoreData.framework */; };
+		6E4F2D42182A4F4D005158DD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4F2D41182A4F4D005158DD /* CoreLocation.framework */; };
+		6E647A671847CDCC0035EA83 /* ResponsesMapAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E647A661847CDCC0035EA83 /* ResponsesMapAssistant.m */; };
+		6E647A6A1847D5090035EA83 /* ResponsePairing.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E647A691847D5090035EA83 /* ResponsePairing.m */; };
+		6E69E2A5182469B7005E1AE1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E69E2A4182469B7005E1AE1 /* MapKit.framework */; };
+		6E69E2B018250BEF005E1AE1 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6E69E2AE18250BEF005E1AE1 /* Model.xcdatamodeld */; };
+		6E795BEC183D131100C7282E /* QuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E795BEB183D131100C7282E /* QuestionViewController.m */; };
+		6E795BEF183D15B100C7282E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E795BEE183D15B100C7282E /* QuartzCore.framework */; };
+		6E7FCD7D1845F7A1003C3542 /* QuestionnaireResponseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7FCD7C1845F7A1003C3542 /* QuestionnaireResponseTableViewController.m */; };
+		6E7FCD93184627BE003C3542 /* QuestionnaireApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7FCD92184627BE003C3542 /* QuestionnaireApp.m */; };
+		6E7FCD9C184627BF003C3542 /* QuestionnaireResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7FCD9B184627BF003C3542 /* QuestionnaireResponse.m */; };
+		6E7FCDA518462816003C3542 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7FCDA418462816003C3542 /* Settings.m */; };
+		6E7FCDAC18463E1A003C3542 /* Icon76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E7FCDAA18463E1A003C3542 /* Icon76x76.png */; };
+		6E7FCDAD18463E1A003C3542 /* Icon152x152.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E7FCDAB18463E1A003C3542 /* Icon152x152.png */; };
+		6E7FCDB0184641CD003C3542 /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7FCDAF184641CD003C3542 /* SettingsTableViewController.m */; };
+		6E7FCDBD18467720003C3542 /* ResponseInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7FCDBC18467720003C3542 /* ResponseInformation.m */; };
+		6E7FCDC218468D7B003C3542 /* MapNotification.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E7FCDC118468D7B003C3542 /* MapNotification.png */; };
+		6E7FCDC718476604003C3542 /* QuestionResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7FCDC618476604003C3542 /* QuestionResponse.m */; };
+		6E8BA23418245F720016B7D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8BA23318245F720016B7D5 /* Foundation.framework */; };
+		6E8BA23618245F720016B7D5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8BA23518245F720016B7D5 /* CoreGraphics.framework */; };
+		6E8BA23818245F720016B7D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8BA23718245F720016B7D5 /* UIKit.framework */; };
+		6E8BA23E18245F720016B7D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E8BA23C18245F720016B7D5 /* InfoPlist.strings */; };
+		6E8BA24018245F720016B7D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8BA23F18245F720016B7D5 /* main.m */; };
+		6E8BA24418245F720016B7D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8BA24318245F720016B7D5 /* AppDelegate.m */; };
+		6E8BA24718245F720016B7D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E8BA24518245F720016B7D5 /* Main.storyboard */; };
+		6E8BA24F18245F720016B7D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E8BA24E18245F720016B7D5 /* Images.xcassets */; };
+		6E8BA25618245F720016B7D5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8BA25518245F720016B7D5 /* XCTest.framework */; };
+		6E8BA25718245F720016B7D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8BA23318245F720016B7D5 /* Foundation.framework */; };
+		6E8BA25818245F720016B7D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8BA23718245F720016B7D5 /* UIKit.framework */; };
+		6E8BA26018245F720016B7D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E8BA25E18245F720016B7D5 /* InfoPlist.strings */; };
+		6E8BA26218245F720016B7D5 /* QuestionnaireTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8BA26118245F720016B7D5 /* QuestionnaireTests.m */; };
+		6E8E1C4B184BBF9F008B2B57 /* ResponseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8E1C4A184BBF9F008B2B57 /* ResponseViewController.m */; };
+		6E8E1C4E184CBAEF008B2B57 /* Exclaim.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E8E1C4C184CBAEF008B2B57 /* Exclaim.png */; };
+		6E8E1C4F184CBAEF008B2B57 /* Question.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E8E1C4D184CBAEF008B2B57 /* Question.png */; };
+		6E8E1C52184CBC5D008B2B57 /* Exclaim@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E8E1C50184CBC5D008B2B57 /* Exclaim@2x.png */; };
+		6E8E1C53184CBC5D008B2B57 /* Question@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E8E1C51184CBC5D008B2B57 /* Question@2x.png */; };
+		6E8E1C55184CC054008B2B57 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8E1C54184CC054008B2B57 /* MessageUI.framework */; };
+		6E8E1C59184E19AA008B2B57 /* XYPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8E1C58184E19AA008B2B57 /* XYPieChart.m */; };
+		6E8E1C94184E1C52008B2B57 /* iPadUsagePieChartDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8E1C93184E1C52008B2B57 /* iPadUsagePieChartDataSource.m */; };
+		6E8E1C97184E290D008B2B57 /* StatisticsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8E1C96184E290D008B2B57 /* StatisticsViewController.m */; };
+		6E8E1C9A184E35C5008B2B57 /* DifficultyPieChartDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8E1C99184E35C5008B2B57 /* DifficultyPieChartDataSource.m */; };
+		6E8E1C9D184E3966008B2B57 /* QuestionResponse+QuestionResponseDifficulty.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8E1C9C184E3966008B2B57 /* QuestionResponse+QuestionResponseDifficulty.m */; };
+		6E8E1CA1184E7928008B2B57 /* StatisticsViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8E1CA0184E7928008B2B57 /* StatisticsViewDataSource.m */; };
+		6E8E1CA3184E9BA2008B2B57 /* MapNotification@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E8E1CA2184E9BA2008B2B57 /* MapNotification@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E8BA25918245F720016B7D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E8BA22818245F720016B7D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E8BA22F18245F720016B7D5;
+			remoteInfo = Questionnaire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E05A9D7183D480B00556871 /* iPadUsabilityQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPadUsabilityQuestionViewController.h; sourceTree = "<group>"; };
+		6E05A9D8183D480B00556871 /* iPadUsabilityQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPadUsabilityQuestionViewController.m; sourceTree = "<group>"; };
+		6E41746B183D71B400B3DD67 /* QuestionnaireResponseBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionnaireResponseBuilder.h; sourceTree = "<group>"; };
+		6E41746C183D71B400B3DD67 /* QuestionnaireResponseBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionnaireResponseBuilder.m; sourceTree = "<group>"; };
+		6E41746F183D776A00B3DD67 /* QuestioneeDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestioneeDetailsViewController.h; sourceTree = "<group>"; };
+		6E417470183D776A00B3DD67 /* QuestioneeDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestioneeDetailsViewController.m; sourceTree = "<group>"; };
+		6E417472183D800500B3DD67 /* UsedBeforeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsedBeforeViewController.h; sourceTree = "<group>"; };
+		6E417473183D800500B3DD67 /* UsedBeforeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsedBeforeViewController.m; sourceTree = "<group>"; };
+		6E417475183D818400B3DD67 /* MainUseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainUseViewController.h; sourceTree = "<group>"; };
+		6E417476183D818400B3DD67 /* MainUseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainUseViewController.m; sourceTree = "<group>"; };
+		6E417478183D827000B3DD67 /* WouldUseAgainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WouldUseAgainViewController.h; sourceTree = "<group>"; };
+		6E417479183D827000B3DD67 /* WouldUseAgainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WouldUseAgainViewController.m; sourceTree = "<group>"; };
+		6E41747C183D864000B3DD67 /* CompletionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompletionViewController.h; sourceTree = "<group>"; };
+		6E41747D183D864000B3DD67 /* CompletionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompletionViewController.m; sourceTree = "<group>"; };
+		6E41747F183D879200B3DD67 /* QuestionnaireTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionnaireTabViewController.m; sourceTree = "<group>"; };
+		6E41748D183E2AD200B3DD67 /* LocationAssistant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationAssistant.h; sourceTree = "<group>"; };
+		6E41748E183E2AD200B3DD67 /* LocationAssistant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationAssistant.m; sourceTree = "<group>"; };
+		6E417490183E37B800B3DD67 /* CoreDataAssistant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataAssistant.h; sourceTree = "<group>"; };
+		6E417491183E37B800B3DD67 /* CoreDataAssistant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataAssistant.m; sourceTree = "<group>"; };
+		6E4174A7183E4A2600B3DD67 /* ResponsesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponsesTableViewController.h; sourceTree = "<group>"; };
+		6E4174A8183E4A2600B3DD67 /* ResponsesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponsesTableViewController.m; sourceTree = "<group>"; };
+		6E4174AD183E739400B3DD67 /* ResponseTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseTabViewController.h; sourceTree = "<group>"; };
+		6E4174AE183E739400B3DD67 /* ResponseTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseTabViewController.m; sourceTree = "<group>"; };
+		6E4F2D30182A45A4005158DD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6E4F2D41182A4F4D005158DD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6E647A641847C7C50035EA83 /* ResponseMapDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResponseMapDelegate.h; sourceTree = "<group>"; };
+		6E647A651847CDCC0035EA83 /* ResponsesMapAssistant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponsesMapAssistant.h; sourceTree = "<group>"; };
+		6E647A661847CDCC0035EA83 /* ResponsesMapAssistant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponsesMapAssistant.m; sourceTree = "<group>"; };
+		6E647A681847D5090035EA83 /* ResponsePairing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponsePairing.h; sourceTree = "<group>"; };
+		6E647A691847D5090035EA83 /* ResponsePairing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponsePairing.m; sourceTree = "<group>"; };
+		6E69E2A4182469B7005E1AE1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		6E69E2AF18250BEF005E1AE1 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		6E795BD4183CFCCC00C7282E /* QuestionnaireDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuestionnaireDelegate.h; sourceTree = "<group>"; };
+		6E795BEA183D131100C7282E /* QuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionViewController.h; sourceTree = "<group>"; };
+		6E795BEB183D131100C7282E /* QuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionViewController.m; sourceTree = "<group>"; };
+		6E795BEE183D15B100C7282E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6E7FCD7B1845F7A1003C3542 /* QuestionnaireResponseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionnaireResponseTableViewController.h; sourceTree = "<group>"; };
+		6E7FCD7C1845F7A1003C3542 /* QuestionnaireResponseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionnaireResponseTableViewController.m; sourceTree = "<group>"; };
+		6E7FCD91184627BE003C3542 /* QuestionnaireApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionnaireApp.h; sourceTree = "<group>"; };
+		6E7FCD92184627BE003C3542 /* QuestionnaireApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionnaireApp.m; sourceTree = "<group>"; };
+		6E7FCD9A184627BF003C3542 /* QuestionnaireResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionnaireResponse.h; sourceTree = "<group>"; };
+		6E7FCD9B184627BF003C3542 /* QuestionnaireResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionnaireResponse.m; sourceTree = "<group>"; };
+		6E7FCDA318462816003C3542 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Settings.h; path = ../Settings.h; sourceTree = "<group>"; };
+		6E7FCDA418462816003C3542 /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Settings.m; path = ../Settings.m; sourceTree = "<group>"; };
+		6E7FCDAA18463E1A003C3542 /* Icon76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon76x76.png; sourceTree = "<group>"; };
+		6E7FCDAB18463E1A003C3542 /* Icon152x152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon152x152.png; sourceTree = "<group>"; };
+		6E7FCDAE184641CD003C3542 /* SettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsTableViewController.h; sourceTree = "<group>"; };
+		6E7FCDAF184641CD003C3542 /* SettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsTableViewController.m; sourceTree = "<group>"; };
+		6E7FCDB1184644A7003C3542 /* AppSettingsDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppSettingsDelegate.h; sourceTree = "<group>"; };
+		6E7FCDBB18467720003C3542 /* ResponseInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseInformation.h; sourceTree = "<group>"; };
+		6E7FCDBC18467720003C3542 /* ResponseInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseInformation.m; sourceTree = "<group>"; };
+		6E7FCDC118468D7B003C3542 /* MapNotification.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MapNotification.png; sourceTree = "<group>"; };
+		6E7FCDC518476604003C3542 /* QuestionResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuestionResponse.h; path = ../QuestionResponse.h; sourceTree = "<group>"; };
+		6E7FCDC618476604003C3542 /* QuestionResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuestionResponse.m; path = ../QuestionResponse.m; sourceTree = "<group>"; };
+		6E7FCE501847A406003C3542 /* ResponsesDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResponsesDelegate.h; sourceTree = "<group>"; };
+		6E8BA23018245F720016B7D5 /* Questionnaire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Questionnaire.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E8BA23318245F720016B7D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6E8BA23518245F720016B7D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6E8BA23718245F720016B7D5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6E8BA23B18245F720016B7D5 /* Questionnaire-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Questionnaire-Info.plist"; sourceTree = "<group>"; };
+		6E8BA23D18245F720016B7D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6E8BA23F18245F720016B7D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E8BA24118245F720016B7D5 /* Questionnaire-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Questionnaire-Prefix.pch"; sourceTree = "<group>"; };
+		6E8BA24218245F720016B7D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6E8BA24318245F720016B7D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6E8BA24618245F720016B7D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E8BA24818245F720016B7D5 /* QuestionnaireTabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuestionnaireTabViewController.h; sourceTree = "<group>"; };
+		6E8BA24E18245F720016B7D5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6E8BA25418245F720016B7D5 /* QuestionnaireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuestionnaireTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E8BA25518245F720016B7D5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6E8BA25D18245F720016B7D5 /* QuestionnaireTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuestionnaireTests-Info.plist"; sourceTree = "<group>"; };
+		6E8BA25F18245F720016B7D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6E8BA26118245F720016B7D5 /* QuestionnaireTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuestionnaireTests.m; sourceTree = "<group>"; };
+		6E8E1C49184BBF9F008B2B57 /* ResponseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseViewController.h; sourceTree = "<group>"; };
+		6E8E1C4A184BBF9F008B2B57 /* ResponseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseViewController.m; sourceTree = "<group>"; };
+		6E8E1C4C184CBAEF008B2B57 /* Exclaim.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Exclaim.png; sourceTree = "<group>"; };
+		6E8E1C4D184CBAEF008B2B57 /* Question.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Question.png; sourceTree = "<group>"; };
+		6E8E1C50184CBC5D008B2B57 /* Exclaim@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Exclaim@2x.png"; sourceTree = "<group>"; };
+		6E8E1C51184CBC5D008B2B57 /* Question@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Question@2x.png"; sourceTree = "<group>"; };
+		6E8E1C54184CC054008B2B57 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		6E8E1C57184E19AA008B2B57 /* XYPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPieChart.h; sourceTree = "<group>"; };
+		6E8E1C58184E19AA008B2B57 /* XYPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPieChart.m; sourceTree = "<group>"; };
+		6E8E1C92184E1C52008B2B57 /* iPadUsagePieChartDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPadUsagePieChartDataSource.h; sourceTree = "<group>"; };
+		6E8E1C93184E1C52008B2B57 /* iPadUsagePieChartDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPadUsagePieChartDataSource.m; sourceTree = "<group>"; };
+		6E8E1C95184E290D008B2B57 /* StatisticsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatisticsViewController.h; sourceTree = "<group>"; };
+		6E8E1C96184E290D008B2B57 /* StatisticsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatisticsViewController.m; sourceTree = "<group>"; };
+		6E8E1C98184E35C5008B2B57 /* DifficultyPieChartDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DifficultyPieChartDataSource.h; sourceTree = "<group>"; };
+		6E8E1C99184E35C5008B2B57 /* DifficultyPieChartDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DifficultyPieChartDataSource.m; sourceTree = "<group>"; };
+		6E8E1C9B184E3966008B2B57 /* QuestionResponse+QuestionResponseDifficulty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QuestionResponse+QuestionResponseDifficulty.h"; sourceTree = "<group>"; };
+		6E8E1C9C184E3966008B2B57 /* QuestionResponse+QuestionResponseDifficulty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QuestionResponse+QuestionResponseDifficulty.m"; sourceTree = "<group>"; };
+		6E8E1C9E184E7834008B2B57 /* StatisticsViewDataSourceDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StatisticsViewDataSourceDelegate.h; sourceTree = "<group>"; };
+		6E8E1C9F184E7928008B2B57 /* StatisticsViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatisticsViewDataSource.h; sourceTree = "<group>"; };
+		6E8E1CA0184E7928008B2B57 /* StatisticsViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatisticsViewDataSource.m; sourceTree = "<group>"; };
+		6E8E1CA2184E9BA2008B2B57 /* MapNotification@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MapNotification@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E8BA22D18245F720016B7D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8E1C55184CC054008B2B57 /* MessageUI.framework in Frameworks */,
+				6E795BEF183D15B100C7282E /* QuartzCore.framework in Frameworks */,
+				6E4F2D42182A4F4D005158DD /* CoreLocation.framework in Frameworks */,
+				6E4F2D31182A45A4005158DD /* CoreData.framework in Frameworks */,
+				6E8BA23618245F720016B7D5 /* CoreGraphics.framework in Frameworks */,
+				6E8BA23818245F720016B7D5 /* UIKit.framework in Frameworks */,
+				6E69E2A5182469B7005E1AE1 /* MapKit.framework in Frameworks */,
+				6E8BA23418245F720016B7D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8BA25118245F720016B7D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8BA25618245F720016B7D5 /* XCTest.framework in Frameworks */,
+				6E8BA25818245F720016B7D5 /* UIKit.framework in Frameworks */,
+				6E8BA25718245F720016B7D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E05A9D6183D47E100556871 /* Questionnaire */ = {
+			isa = PBXGroup;
+			children = (
+				6E41746A183D707300B3DD67 /* Questions */,
+				6E795BEA183D131100C7282E /* QuestionViewController.h */,
+				6E795BEB183D131100C7282E /* QuestionViewController.m */,
+			);
+			name = Questionnaire;
+			sourceTree = "<group>";
+		};
+		6E41746A183D707300B3DD67 /* Questions */ = {
+			isa = PBXGroup;
+			children = (
+				6E41746F183D776A00B3DD67 /* QuestioneeDetailsViewController.h */,
+				6E417470183D776A00B3DD67 /* QuestioneeDetailsViewController.m */,
+				6E417472183D800500B3DD67 /* UsedBeforeViewController.h */,
+				6E417473183D800500B3DD67 /* UsedBeforeViewController.m */,
+				6E417475183D818400B3DD67 /* MainUseViewController.h */,
+				6E417476183D818400B3DD67 /* MainUseViewController.m */,
+				6E05A9D7183D480B00556871 /* iPadUsabilityQuestionViewController.h */,
+				6E05A9D8183D480B00556871 /* iPadUsabilityQuestionViewController.m */,
+				6E417478183D827000B3DD67 /* WouldUseAgainViewController.h */,
+				6E417479183D827000B3DD67 /* WouldUseAgainViewController.m */,
+				6E41747C183D864000B3DD67 /* CompletionViewController.h */,
+				6E41747D183D864000B3DD67 /* CompletionViewController.m */,
+			);
+			name = Questions;
+			sourceTree = "<group>";
+		};
+		6E4174A0183E3F7B00B3DD67 /* Generated Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6E7FCDC518476604003C3542 /* QuestionResponse.h */,
+				6E7FCDC618476604003C3542 /* QuestionResponse.m */,
+				6E7FCDBB18467720003C3542 /* ResponseInformation.h */,
+				6E7FCDBC18467720003C3542 /* ResponseInformation.m */,
+				6E7FCDA318462816003C3542 /* Settings.h */,
+				6E7FCDA418462816003C3542 /* Settings.m */,
+				6E7FCD9A184627BF003C3542 /* QuestionnaireResponse.h */,
+				6E7FCD9B184627BF003C3542 /* QuestionnaireResponse.m */,
+				6E7FCD91184627BE003C3542 /* QuestionnaireApp.h */,
+				6E7FCD92184627BE003C3542 /* QuestionnaireApp.m */,
+			);
+			name = "Generated Classes";
+			sourceTree = "<group>";
+		};
+		6E647A601847C6FF0035EA83 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6E8E1C56184E199C008B2B57 /* XYPieChart */,
+				6E7FCDB418465FDE003C3542 /* Map */,
+				6E7FCD7E184624BB003C3542 /* Tabs */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6E69E2AC18250BC3005E1AE1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6E4174A0183E3F7B00B3DD67 /* Generated Classes */,
+				6E41746B183D71B400B3DD67 /* QuestionnaireResponseBuilder.h */,
+				6E41746C183D71B400B3DD67 /* QuestionnaireResponseBuilder.m */,
+				6E417490183E37B800B3DD67 /* CoreDataAssistant.h */,
+				6E417491183E37B800B3DD67 /* CoreDataAssistant.m */,
+				6E41748D183E2AD200B3DD67 /* LocationAssistant.h */,
+				6E41748E183E2AD200B3DD67 /* LocationAssistant.m */,
+				6E8E1C9B184E3966008B2B57 /* QuestionResponse+QuestionResponseDifficulty.h */,
+				6E8E1C9C184E3966008B2B57 /* QuestionResponse+QuestionResponseDifficulty.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6E69E2AD18250BCA005E1AE1 /* Questionnaire View */ = {
+			isa = PBXGroup;
+			children = (
+				6E05A9D6183D47E100556871 /* Questionnaire */,
+				6E7FCDAE184641CD003C3542 /* SettingsTableViewController.h */,
+				6E7FCDAF184641CD003C3542 /* SettingsTableViewController.m */,
+				6E8BA24818245F720016B7D5 /* QuestionnaireTabViewController.h */,
+				6E41747F183D879200B3DD67 /* QuestionnaireTabViewController.m */,
+				6E7FCDB1184644A7003C3542 /* AppSettingsDelegate.h */,
+				6E795BD4183CFCCC00C7282E /* QuestionnaireDelegate.h */,
+			);
+			name = "Questionnaire View";
+			path = Questionnaire;
+			sourceTree = "<group>";
+		};
+		6E7FCD7E184624BB003C3542 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				6E69E2AD18250BCA005E1AE1 /* Questionnaire View */,
+				6ED9025B1832D714009E2C15 /* Responses View */,
+			);
+			name = Tabs;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		6E7FCDB418465FDE003C3542 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				6E647A641847C7C50035EA83 /* ResponseMapDelegate.h */,
+				6E647A651847CDCC0035EA83 /* ResponsesMapAssistant.h */,
+				6E647A661847CDCC0035EA83 /* ResponsesMapAssistant.m */,
+				6E647A681847D5090035EA83 /* ResponsePairing.h */,
+				6E647A691847D5090035EA83 /* ResponsePairing.m */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		6E8BA22718245F720016B7D5 = {
+			isa = PBXGroup;
+			children = (
+				6E8BA23918245F720016B7D5 /* Questionnaire */,
+				6E8BA25B18245F720016B7D5 /* QuestionnaireTests */,
+				6E8BA23218245F720016B7D5 /* Frameworks */,
+				6E8BA23118245F720016B7D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E8BA23118245F720016B7D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E8BA23018245F720016B7D5 /* Questionnaire.app */,
+				6E8BA25418245F720016B7D5 /* QuestionnaireTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E8BA23218245F720016B7D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E8E1C54184CC054008B2B57 /* MessageUI.framework */,
+				6E795BEE183D15B100C7282E /* QuartzCore.framework */,
+				6E4F2D41182A4F4D005158DD /* CoreLocation.framework */,
+				6E4F2D30182A45A4005158DD /* CoreData.framework */,
+				6E69E2A4182469B7005E1AE1 /* MapKit.framework */,
+				6E8BA23318245F720016B7D5 /* Foundation.framework */,
+				6E8BA23518245F720016B7D5 /* CoreGraphics.framework */,
+				6E8BA23718245F720016B7D5 /* UIKit.framework */,
+				6E8BA25518245F720016B7D5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E8BA23918245F720016B7D5 /* Questionnaire */ = {
+			isa = PBXGroup;
+			children = (
+				6E647A601847C6FF0035EA83 /* View */,
+				6E69E2AC18250BC3005E1AE1 /* Model */,
+				6E8BA24218245F720016B7D5 /* AppDelegate.h */,
+				6E8BA24318245F720016B7D5 /* AppDelegate.m */,
+				6E8BA24E18245F720016B7D5 /* Images.xcassets */,
+				6E8BA24518245F720016B7D5 /* Main.storyboard */,
+				6E69E2AE18250BEF005E1AE1 /* Model.xcdatamodeld */,
+				6E8BA23A18245F720016B7D5 /* Supporting Files */,
+			);
+			path = Questionnaire;
+			sourceTree = "<group>";
+		};
+		6E8BA23A18245F720016B7D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E8E1CA2184E9BA2008B2B57 /* MapNotification@2x.png */,
+				6E8E1C50184CBC5D008B2B57 /* Exclaim@2x.png */,
+				6E8E1C51184CBC5D008B2B57 /* Question@2x.png */,
+				6E8E1C4C184CBAEF008B2B57 /* Exclaim.png */,
+				6E8E1C4D184CBAEF008B2B57 /* Question.png */,
+				6E7FCDC118468D7B003C3542 /* MapNotification.png */,
+				6E7FCDAA18463E1A003C3542 /* Icon76x76.png */,
+				6E7FCDAB18463E1A003C3542 /* Icon152x152.png */,
+				6E8BA23B18245F720016B7D5 /* Questionnaire-Info.plist */,
+				6E8BA23C18245F720016B7D5 /* InfoPlist.strings */,
+				6E8BA23F18245F720016B7D5 /* main.m */,
+				6E8BA24118245F720016B7D5 /* Questionnaire-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E8BA25B18245F720016B7D5 /* QuestionnaireTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E8BA26118245F720016B7D5 /* QuestionnaireTests.m */,
+				6E8BA25C18245F720016B7D5 /* Supporting Files */,
+			);
+			path = QuestionnaireTests;
+			sourceTree = "<group>";
+		};
+		6E8BA25C18245F720016B7D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E8BA25D18245F720016B7D5 /* QuestionnaireTests-Info.plist */,
+				6E8BA25E18245F720016B7D5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E8E1C56184E199C008B2B57 /* XYPieChart */ = {
+			isa = PBXGroup;
+			children = (
+				6E8E1C57184E19AA008B2B57 /* XYPieChart.h */,
+				6E8E1C58184E19AA008B2B57 /* XYPieChart.m */,
+				6E8E1C92184E1C52008B2B57 /* iPadUsagePieChartDataSource.h */,
+				6E8E1C93184E1C52008B2B57 /* iPadUsagePieChartDataSource.m */,
+				6E8E1C98184E35C5008B2B57 /* DifficultyPieChartDataSource.h */,
+				6E8E1C99184E35C5008B2B57 /* DifficultyPieChartDataSource.m */,
+			);
+			name = XYPieChart;
+			sourceTree = "<group>";
+		};
+		6ED9025B1832D714009E2C15 /* Responses View */ = {
+			isa = PBXGroup;
+			children = (
+				6E7FCE501847A406003C3542 /* ResponsesDelegate.h */,
+				6E7FCD7B1845F7A1003C3542 /* QuestionnaireResponseTableViewController.h */,
+				6E7FCD7C1845F7A1003C3542 /* QuestionnaireResponseTableViewController.m */,
+				6E8E1C49184BBF9F008B2B57 /* ResponseViewController.h */,
+				6E8E1C4A184BBF9F008B2B57 /* ResponseViewController.m */,
+				6E4174AD183E739400B3DD67 /* ResponseTabViewController.h */,
+				6E4174AE183E739400B3DD67 /* ResponseTabViewController.m */,
+				6E4174A7183E4A2600B3DD67 /* ResponsesTableViewController.h */,
+				6E4174A8183E4A2600B3DD67 /* ResponsesTableViewController.m */,
+				6E8E1C95184E290D008B2B57 /* StatisticsViewController.h */,
+				6E8E1C96184E290D008B2B57 /* StatisticsViewController.m */,
+				6E8E1C9E184E7834008B2B57 /* StatisticsViewDataSourceDelegate.h */,
+				6E8E1C9F184E7928008B2B57 /* StatisticsViewDataSource.h */,
+				6E8E1CA0184E7928008B2B57 /* StatisticsViewDataSource.m */,
+			);
+			name = "Responses View";
+			path = Questionnaire;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E8BA22F18245F720016B7D5 /* Questionnaire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E8BA26518245F720016B7D5 /* Build configuration list for PBXNativeTarget "Questionnaire" */;
+			buildPhases = (
+				6E8BA22C18245F720016B7D5 /* Sources */,
+				6E8BA22D18245F720016B7D5 /* Frameworks */,
+				6E8BA22E18245F720016B7D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Questionnaire;
+			productName = Questionnaire;
+			productReference = 6E8BA23018245F720016B7D5 /* Questionnaire.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E8BA25318245F720016B7D5 /* QuestionnaireTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E8BA26818245F720016B7D5 /* Build configuration list for PBXNativeTarget "QuestionnaireTests" */;
+			buildPhases = (
+				6E8BA25018245F720016B7D5 /* Sources */,
+				6E8BA25118245F720016B7D5 /* Frameworks */,
+				6E8BA25218245F720016B7D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E8BA25A18245F720016B7D5 /* PBXTargetDependency */,
+			);
+			name = QuestionnaireTests;
+			productName = QuestionnaireTests;
+			productReference = 6E8BA25418245F720016B7D5 /* QuestionnaireTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E8BA22818245F720016B7D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Thomas Sherwood";
+				TargetAttributes = {
+					6E8BA22F18245F720016B7D5 = {
+						DevelopmentTeam = C45349MG73;
+						SystemCapabilities = {
+							com.apple.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					6E8BA25318245F720016B7D5 = {
+						TestTargetID = 6E8BA22F18245F720016B7D5;
+					};
+				};
+			};
+			buildConfigurationList = 6E8BA22B18245F720016B7D5 /* Build configuration list for PBXProject "Questionnaire" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E8BA22718245F720016B7D5;
+			productRefGroup = 6E8BA23118245F720016B7D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E8BA22F18245F720016B7D5 /* Questionnaire */,
+				6E8BA25318245F720016B7D5 /* QuestionnaireTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E8BA22E18245F720016B7D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E7FCDAD18463E1A003C3542 /* Icon152x152.png in Resources */,
+				6E7FCDAC18463E1A003C3542 /* Icon76x76.png in Resources */,
+				6E7FCDC218468D7B003C3542 /* MapNotification.png in Resources */,
+				6E8E1C53184CBC5D008B2B57 /* Question@2x.png in Resources */,
+				6E8E1C4E184CBAEF008B2B57 /* Exclaim.png in Resources */,
+				6E8E1C4F184CBAEF008B2B57 /* Question.png in Resources */,
+				6E8BA24F18245F720016B7D5 /* Images.xcassets in Resources */,
+				6E8BA23E18245F720016B7D5 /* InfoPlist.strings in Resources */,
+				6E8E1C52184CBC5D008B2B57 /* Exclaim@2x.png in Resources */,
+				6E8E1CA3184E9BA2008B2B57 /* MapNotification@2x.png in Resources */,
+				6E8BA24718245F720016B7D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8BA25218245F720016B7D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8BA26018245F720016B7D5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E8BA22C18245F720016B7D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E7FCD9C184627BF003C3542 /* QuestionnaireResponse.m in Sources */,
+				6E8E1C94184E1C52008B2B57 /* iPadUsagePieChartDataSource.m in Sources */,
+				6E7FCDA518462816003C3542 /* Settings.m in Sources */,
+				6E795BEC183D131100C7282E /* QuestionViewController.m in Sources */,
+				6E8E1C4B184BBF9F008B2B57 /* ResponseViewController.m in Sources */,
+				6E41746D183D71B400B3DD67 /* QuestionnaireResponseBuilder.m in Sources */,
+				6E8E1CA1184E7928008B2B57 /* StatisticsViewDataSource.m in Sources */,
+				6E7FCD93184627BE003C3542 /* QuestionnaireApp.m in Sources */,
+				6E05A9D9183D480B00556871 /* iPadUsabilityQuestionViewController.m in Sources */,
+				6E7FCDB0184641CD003C3542 /* SettingsTableViewController.m in Sources */,
+				6E417477183D818400B3DD67 /* MainUseViewController.m in Sources */,
+				6E8BA24418245F720016B7D5 /* AppDelegate.m in Sources */,
+				6E7FCD7D1845F7A1003C3542 /* QuestionnaireResponseTableViewController.m in Sources */,
+				6E647A671847CDCC0035EA83 /* ResponsesMapAssistant.m in Sources */,
+				6E417471183D776A00B3DD67 /* QuestioneeDetailsViewController.m in Sources */,
+				6E417480183D879200B3DD67 /* QuestionnaireTabViewController.m in Sources */,
+				6E69E2B018250BEF005E1AE1 /* Model.xcdatamodeld in Sources */,
+				6E8E1C59184E19AA008B2B57 /* XYPieChart.m in Sources */,
+				6E41747E183D864000B3DD67 /* CompletionViewController.m in Sources */,
+				6E417492183E37B800B3DD67 /* CoreDataAssistant.m in Sources */,
+				6E417474183D800500B3DD67 /* UsedBeforeViewController.m in Sources */,
+				6E7FCDC718476604003C3542 /* QuestionResponse.m in Sources */,
+				6E7FCDBD18467720003C3542 /* ResponseInformation.m in Sources */,
+				6E8E1C97184E290D008B2B57 /* StatisticsViewController.m in Sources */,
+				6E41748F183E2AD200B3DD67 /* LocationAssistant.m in Sources */,
+				6E4174AF183E739400B3DD67 /* ResponseTabViewController.m in Sources */,
+				6E41747A183D827000B3DD67 /* WouldUseAgainViewController.m in Sources */,
+				6E647A6A1847D5090035EA83 /* ResponsePairing.m in Sources */,
+				6E8E1C9A184E35C5008B2B57 /* DifficultyPieChartDataSource.m in Sources */,
+				6E8BA24018245F720016B7D5 /* main.m in Sources */,
+				6E4174A9183E4A2600B3DD67 /* ResponsesTableViewController.m in Sources */,
+				6E8E1C9D184E3966008B2B57 /* QuestionResponse+QuestionResponseDifficulty.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8BA25018245F720016B7D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8BA26218245F720016B7D5 /* QuestionnaireTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E8BA25A18245F720016B7D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E8BA22F18245F720016B7D5 /* Questionnaire */;
+			targetProxy = 6E8BA25918245F720016B7D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E8BA23C18245F720016B7D5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E8BA23D18245F720016B7D5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6E8BA24518245F720016B7D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E8BA24618245F720016B7D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E8BA25E18245F720016B7D5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E8BA25F18245F720016B7D5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E8BA26318245F720016B7D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		6E8BA26418245F720016B7D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E8BA26618245F720016B7D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Questionnaire/Questionnaire-Prefix.pch";
+				INFOPLIST_FILE = "Questionnaire/Questionnaire-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6E8BA26718245F720016B7D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Questionnaire/Questionnaire-Prefix.pch";
+				INFOPLIST_FILE = "Questionnaire/Questionnaire-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6E8BA26918245F720016B7D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Questionnaire.app/Questionnaire";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Questionnaire/Questionnaire-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "QuestionnaireTests/QuestionnaireTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6E8BA26A18245F720016B7D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Questionnaire.app/Questionnaire";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Questionnaire/Questionnaire-Prefix.pch";
+				INFOPLIST_FILE = "QuestionnaireTests/QuestionnaireTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E8BA22B18245F720016B7D5 /* Build configuration list for PBXProject "Questionnaire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E8BA26318245F720016B7D5 /* Debug */,
+				6E8BA26418245F720016B7D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E8BA26518245F720016B7D5 /* Build configuration list for PBXNativeTarget "Questionnaire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E8BA26618245F720016B7D5 /* Debug */,
+				6E8BA26718245F720016B7D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E8BA26818245F720016B7D5 /* Build configuration list for PBXNativeTarget "QuestionnaireTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E8BA26918245F720016B7D5 /* Debug */,
+				6E8BA26A18245F720016B7D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6E69E2AE18250BEF005E1AE1 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6E69E2AF18250BEF005E1AE1 /* Model.xcdatamodel */,
+			);
+			currentVersion = 6E69E2AF18250BEF005E1AE1 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6E8BA22818245F720016B7D5 /* Project object */;
+}

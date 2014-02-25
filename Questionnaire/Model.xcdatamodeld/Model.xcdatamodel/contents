@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3401" systemVersion="13A603" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="QuestionnaireApp" representedClassName="QuestionnaireApp" syncable="YES">
+        <relationship name="responses" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="QuestionnaireResponse" inverseName="model" inverseEntity="QuestionnaireResponse" syncable="YES"/>
+        <relationship name="settings" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Settings" inverseName="app" inverseEntity="Settings" syncable="YES"/>
+    </entity>
+    <entity name="QuestionnaireResponse" representedClassName="QuestionnaireResponse" syncable="YES">
+        <relationship name="model" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="QuestionnaireApp" inverseName="responses" inverseEntity="QuestionnaireApp" syncable="YES"/>
+        <relationship name="questionResponses" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="QuestionResponse" inverseName="parentResponse" inverseEntity="QuestionResponse" syncable="YES"/>
+        <relationship name="responseDetails" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ResponseInformation" inverseName="response" inverseEntity="ResponseInformation" syncable="YES"/>
+    </entity>
+    <entity name="QuestionResponse" representedClassName="QuestionResponse" syncable="YES">
+        <attribute name="question" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="questionNum" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="response" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="parentResponse" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="QuestionnaireResponse" inverseName="questionResponses" inverseEntity="QuestionnaireResponse" syncable="YES"/>
+    </entity>
+    <entity name="ResponseInformation" representedClassName="ResponseInformation" syncable="YES">
+        <attribute name="hasSeen" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="locationQuestioned" optional="YES" attributeType="Transformable" indexed="YES" syncable="YES"/>
+        <attribute name="respondantDateOfBirth" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="respondantForename" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="respondantSurname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timeBegan" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="timeCompleted" optional="YES" attributeType="Date" indexed="YES" syncable="YES"/>
+        <relationship name="response" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="QuestionnaireResponse" inverseName="responseDetails" inverseEntity="QuestionnaireResponse" syncable="YES"/>
+    </entity>
+    <entity name="Settings" representedClassName="Settings" syncable="YES">
+        <attribute name="passcodeAsString" optional="YES" attributeType="String" minValueString="4" maxValueString="4" defaultValueString="1234" syncable="YES"/>
+        <attribute name="usePasscode" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <relationship name="app" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="QuestionnaireApp" inverseName="settings" inverseEntity="QuestionnaireApp" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="QuestionnaireApp" positionX="0" positionY="0" width="128" height="75"/>
+        <element name="QuestionnaireResponse" positionX="117" positionY="153" width="128" height="90"/>
+        <element name="QuestionResponse" positionX="178" positionY="-108" width="128" height="105"/>
+        <element name="ResponseInformation" positionX="-198" positionY="114" width="128" height="165"/>
+        <element name="Settings" positionX="-234" positionY="-81" width="128" height="88"/>
+    </elements>
+</model>
