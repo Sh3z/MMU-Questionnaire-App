@@ -21,8 +21,7 @@
 {
 	if([self validate])
 	{
-		[self.builder setForename:[forenameField text]];
-		[self.builder setSurname:[surnameField text]];
+		[self.builder setIdentifier:[identifierField text]];
 		[self.builder setDateOfBirth:[dobPicker date]];
 		[self performSegueWithIdentifier:@"goToQ1" sender:self];
 	}
@@ -31,9 +30,6 @@
 - (void)viewDidLoad
 {
 	[super viewDidLoad];
-	
-	forenameField.delegate = self;
-	surnameField.delegate = self;
 	
 	NSCalendar* calendar = [NSCalendar currentCalendar];
 	NSDate* today = [NSDate date];
@@ -51,40 +47,22 @@
 
 #pragma mark - QuestioneeDetailsViewController Implementation
 
-@synthesize forenameField, surnameField, dobPicker;
-
-
-#pragma mark - UITextFieldDelegate Implementation
-
-- (BOOL)textFieldShouldReturn:(UITextField *)textField
-{
-	if(textField == forenameField)
-	{
-		[forenameField resignFirstResponder];
-		[surnameField becomeFirstResponder];
-	}
-	else if(textField == surnameField)
-	{
-		[surnameField resignFirstResponder];
-	}
-	
-	return YES;
-}
+@synthesize identifierField, dobPicker;
 
 
 #pragma mark - Additional Methods
 
 - (BOOL)validate
 {
-	if([[forenameField text] isEqualToString:@""])
+	if([[identifierField text] isEqualToString:@""])
 	{
 		[self displayError:@"Please provide your first name"];
 		return NO;
 	}
 	
-	if([[surnameField text] isEqualToString:@""])
+	if([[identifierField text] isEqualToString:@""])
 	{
-		[self displayError:@"Please provide your last name"];
+		[self displayError:@"Please provide an identifier"];
 		return NO;
 	}
 	

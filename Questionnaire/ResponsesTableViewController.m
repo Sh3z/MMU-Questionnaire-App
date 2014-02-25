@@ -81,10 +81,7 @@
 	}
 	
 	QuestionnaireResponse* response = [self responseAtRow:indexPath.row];
-    NSDictionary* attributes = @{NSFontAttributeName:[UIFont boldSystemFontOfSize:cell.textLabel.font.pointSize]};
-	NSMutableAttributedString* surname = [[NSMutableAttributedString alloc] initWithString:[[response responseDetails] respondantSurname] attributes:attributes];
-	cell.textLabel.attributedText = surname;
-	cell.detailTextLabel.text = [[response responseDetails] respondantForename];
+	cell.textLabel.text = [[response responseDetails] respondantIdentifier];
 	cell.imageView.image = nil;
 	cell.indentationWidth = 0;
 	
@@ -156,8 +153,8 @@
 	for(QuestionnaireResponse* response in _allResponses)
 	{
 		ResponseInformation* info = [response responseDetails];
-		NSString* name = [NSString stringWithFormat:@"%@ %@", [info respondantForename], [info respondantSurname]];
-		NSRange range = [name rangeOfString:searchText options:NSCaseInsensitiveSearch];
+		NSString* respondantID = [info respondantIdentifier];
+		NSRange range = [respondantID rangeOfString:searchText options:NSCaseInsensitiveSearch];
 		if(range.location != NSNotFound)
 		{
 			[_filteredResponses addObject:response];

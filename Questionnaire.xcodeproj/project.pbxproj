@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E00442618BCC8130015B7E1 /* QuestionnaireApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E00442518BCC8130015B7E1 /* QuestionnaireApp.m */; };
+		6E00442918BCC8140015B7E1 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E00442818BCC8140015B7E1 /* Settings.m */; };
+		6E00442C18BCC8140015B7E1 /* QuestionnaireResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E00442B18BCC8140015B7E1 /* QuestionnaireResponse.m */; };
+		6E00442F18BCC8140015B7E1 /* QuestionResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E00442E18BCC8140015B7E1 /* QuestionResponse.m */; };
+		6E00443218BCC8140015B7E1 /* ResponseInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E00443118BCC8140015B7E1 /* ResponseInformation.m */; };
 		6E05A9D9183D480B00556871 /* iPadUsabilityQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E05A9D8183D480B00556871 /* iPadUsabilityQuestionViewController.m */; };
 		6E41746D183D71B400B3DD67 /* QuestionnaireResponseBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E41746C183D71B400B3DD67 /* QuestionnaireResponseBuilder.m */; };
 		6E417471183D776A00B3DD67 /* QuestioneeDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E417470183D776A00B3DD67 /* QuestioneeDetailsViewController.m */; };
@@ -28,15 +33,10 @@
 		6E795BEC183D131100C7282E /* QuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E795BEB183D131100C7282E /* QuestionViewController.m */; };
 		6E795BEF183D15B100C7282E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E795BEE183D15B100C7282E /* QuartzCore.framework */; };
 		6E7FCD7D1845F7A1003C3542 /* QuestionnaireResponseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7FCD7C1845F7A1003C3542 /* QuestionnaireResponseTableViewController.m */; };
-		6E7FCD93184627BE003C3542 /* QuestionnaireApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7FCD92184627BE003C3542 /* QuestionnaireApp.m */; };
-		6E7FCD9C184627BF003C3542 /* QuestionnaireResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7FCD9B184627BF003C3542 /* QuestionnaireResponse.m */; };
-		6E7FCDA518462816003C3542 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7FCDA418462816003C3542 /* Settings.m */; };
 		6E7FCDAC18463E1A003C3542 /* Icon76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E7FCDAA18463E1A003C3542 /* Icon76x76.png */; };
 		6E7FCDAD18463E1A003C3542 /* Icon152x152.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E7FCDAB18463E1A003C3542 /* Icon152x152.png */; };
 		6E7FCDB0184641CD003C3542 /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7FCDAF184641CD003C3542 /* SettingsTableViewController.m */; };
-		6E7FCDBD18467720003C3542 /* ResponseInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7FCDBC18467720003C3542 /* ResponseInformation.m */; };
 		6E7FCDC218468D7B003C3542 /* MapNotification.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E7FCDC118468D7B003C3542 /* MapNotification.png */; };
-		6E7FCDC718476604003C3542 /* QuestionResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7FCDC618476604003C3542 /* QuestionResponse.m */; };
 		6E8BA23418245F720016B7D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8BA23318245F720016B7D5 /* Foundation.framework */; };
 		6E8BA23618245F720016B7D5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8BA23518245F720016B7D5 /* CoreGraphics.framework */; };
 		6E8BA23818245F720016B7D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8BA23718245F720016B7D5 /* UIKit.framework */; };
@@ -76,6 +76,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E00442418BCC8130015B7E1 /* QuestionnaireApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionnaireApp.h; sourceTree = "<group>"; };
+		6E00442518BCC8130015B7E1 /* QuestionnaireApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionnaireApp.m; sourceTree = "<group>"; };
+		6E00442718BCC8140015B7E1 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		6E00442818BCC8140015B7E1 /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		6E00442A18BCC8140015B7E1 /* QuestionnaireResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionnaireResponse.h; sourceTree = "<group>"; };
+		6E00442B18BCC8140015B7E1 /* QuestionnaireResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionnaireResponse.m; sourceTree = "<group>"; };
+		6E00442D18BCC8140015B7E1 /* QuestionResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionResponse.h; sourceTree = "<group>"; };
+		6E00442E18BCC8140015B7E1 /* QuestionResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionResponse.m; sourceTree = "<group>"; };
+		6E00443018BCC8140015B7E1 /* ResponseInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseInformation.h; sourceTree = "<group>"; };
+		6E00443118BCC8140015B7E1 /* ResponseInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseInformation.m; sourceTree = "<group>"; };
 		6E05A9D7183D480B00556871 /* iPadUsabilityQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPadUsabilityQuestionViewController.h; sourceTree = "<group>"; };
 		6E05A9D8183D480B00556871 /* iPadUsabilityQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPadUsabilityQuestionViewController.m; sourceTree = "<group>"; };
 		6E41746B183D71B400B3DD67 /* QuestionnaireResponseBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionnaireResponseBuilder.h; sourceTree = "<group>"; };
@@ -114,22 +124,12 @@
 		6E795BEE183D15B100C7282E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		6E7FCD7B1845F7A1003C3542 /* QuestionnaireResponseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionnaireResponseTableViewController.h; sourceTree = "<group>"; };
 		6E7FCD7C1845F7A1003C3542 /* QuestionnaireResponseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionnaireResponseTableViewController.m; sourceTree = "<group>"; };
-		6E7FCD91184627BE003C3542 /* QuestionnaireApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionnaireApp.h; sourceTree = "<group>"; };
-		6E7FCD92184627BE003C3542 /* QuestionnaireApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionnaireApp.m; sourceTree = "<group>"; };
-		6E7FCD9A184627BF003C3542 /* QuestionnaireResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionnaireResponse.h; sourceTree = "<group>"; };
-		6E7FCD9B184627BF003C3542 /* QuestionnaireResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionnaireResponse.m; sourceTree = "<group>"; };
-		6E7FCDA318462816003C3542 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Settings.h; path = ../Settings.h; sourceTree = "<group>"; };
-		6E7FCDA418462816003C3542 /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Settings.m; path = ../Settings.m; sourceTree = "<group>"; };
 		6E7FCDAA18463E1A003C3542 /* Icon76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon76x76.png; sourceTree = "<group>"; };
 		6E7FCDAB18463E1A003C3542 /* Icon152x152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon152x152.png; sourceTree = "<group>"; };
 		6E7FCDAE184641CD003C3542 /* SettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsTableViewController.h; sourceTree = "<group>"; };
 		6E7FCDAF184641CD003C3542 /* SettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsTableViewController.m; sourceTree = "<group>"; };
 		6E7FCDB1184644A7003C3542 /* AppSettingsDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppSettingsDelegate.h; sourceTree = "<group>"; };
-		6E7FCDBB18467720003C3542 /* ResponseInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseInformation.h; sourceTree = "<group>"; };
-		6E7FCDBC18467720003C3542 /* ResponseInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseInformation.m; sourceTree = "<group>"; };
 		6E7FCDC118468D7B003C3542 /* MapNotification.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MapNotification.png; sourceTree = "<group>"; };
-		6E7FCDC518476604003C3542 /* QuestionResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuestionResponse.h; path = ../QuestionResponse.h; sourceTree = "<group>"; };
-		6E7FCDC618476604003C3542 /* QuestionResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuestionResponse.m; path = ../QuestionResponse.m; sourceTree = "<group>"; };
 		6E7FCE501847A406003C3542 /* ResponsesDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResponsesDelegate.h; sourceTree = "<group>"; };
 		6E8BA23018245F720016B7D5 /* Questionnaire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Questionnaire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E8BA23318245F720016B7D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -233,16 +233,16 @@
 		6E4174A0183E3F7B00B3DD67 /* Generated Classes */ = {
 			isa = PBXGroup;
 			children = (
-				6E7FCDC518476604003C3542 /* QuestionResponse.h */,
-				6E7FCDC618476604003C3542 /* QuestionResponse.m */,
-				6E7FCDBB18467720003C3542 /* ResponseInformation.h */,
-				6E7FCDBC18467720003C3542 /* ResponseInformation.m */,
-				6E7FCDA318462816003C3542 /* Settings.h */,
-				6E7FCDA418462816003C3542 /* Settings.m */,
-				6E7FCD9A184627BF003C3542 /* QuestionnaireResponse.h */,
-				6E7FCD9B184627BF003C3542 /* QuestionnaireResponse.m */,
-				6E7FCD91184627BE003C3542 /* QuestionnaireApp.h */,
-				6E7FCD92184627BE003C3542 /* QuestionnaireApp.m */,
+				6E00443018BCC8140015B7E1 /* ResponseInformation.h */,
+				6E00443118BCC8140015B7E1 /* ResponseInformation.m */,
+				6E00442D18BCC8140015B7E1 /* QuestionResponse.h */,
+				6E00442E18BCC8140015B7E1 /* QuestionResponse.m */,
+				6E00442A18BCC8140015B7E1 /* QuestionnaireResponse.h */,
+				6E00442B18BCC8140015B7E1 /* QuestionnaireResponse.m */,
+				6E00442718BCC8140015B7E1 /* Settings.h */,
+				6E00442818BCC8140015B7E1 /* Settings.m */,
+				6E00442418BCC8130015B7E1 /* QuestionnaireApp.h */,
+				6E00442518BCC8130015B7E1 /* QuestionnaireApp.m */,
 			);
 			name = "Generated Classes";
 			sourceTree = "<group>";
@@ -545,29 +545,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E7FCD9C184627BF003C3542 /* QuestionnaireResponse.m in Sources */,
 				6E8E1C94184E1C52008B2B57 /* iPadUsagePieChartDataSource.m in Sources */,
-				6E7FCDA518462816003C3542 /* Settings.m in Sources */,
 				6E795BEC183D131100C7282E /* QuestionViewController.m in Sources */,
 				6E8E1C4B184BBF9F008B2B57 /* ResponseViewController.m in Sources */,
 				6E41746D183D71B400B3DD67 /* QuestionnaireResponseBuilder.m in Sources */,
 				6E8E1CA1184E7928008B2B57 /* StatisticsViewDataSource.m in Sources */,
-				6E7FCD93184627BE003C3542 /* QuestionnaireApp.m in Sources */,
+				6E00443218BCC8140015B7E1 /* ResponseInformation.m in Sources */,
+				6E00442918BCC8140015B7E1 /* Settings.m in Sources */,
 				6E05A9D9183D480B00556871 /* iPadUsabilityQuestionViewController.m in Sources */,
 				6E7FCDB0184641CD003C3542 /* SettingsTableViewController.m in Sources */,
 				6E417477183D818400B3DD67 /* MainUseViewController.m in Sources */,
 				6E8BA24418245F720016B7D5 /* AppDelegate.m in Sources */,
 				6E7FCD7D1845F7A1003C3542 /* QuestionnaireResponseTableViewController.m in Sources */,
 				6E647A671847CDCC0035EA83 /* ResponsesMapAssistant.m in Sources */,
+				6E00442C18BCC8140015B7E1 /* QuestionnaireResponse.m in Sources */,
 				6E417471183D776A00B3DD67 /* QuestioneeDetailsViewController.m in Sources */,
+				6E00442F18BCC8140015B7E1 /* QuestionResponse.m in Sources */,
 				6E417480183D879200B3DD67 /* QuestionnaireTabViewController.m in Sources */,
 				6E69E2B018250BEF005E1AE1 /* Model.xcdatamodeld in Sources */,
 				6E8E1C59184E19AA008B2B57 /* XYPieChart.m in Sources */,
 				6E41747E183D864000B3DD67 /* CompletionViewController.m in Sources */,
 				6E417492183E37B800B3DD67 /* CoreDataAssistant.m in Sources */,
+				6E00442618BCC8130015B7E1 /* QuestionnaireApp.m in Sources */,
 				6E417474183D800500B3DD67 /* UsedBeforeViewController.m in Sources */,
-				6E7FCDC718476604003C3542 /* QuestionResponse.m in Sources */,
-				6E7FCDBD18467720003C3542 /* ResponseInformation.m in Sources */,
 				6E8E1C97184E290D008B2B57 /* StatisticsViewController.m in Sources */,
 				6E41748F183E2AD200B3DD67 /* LocationAssistant.m in Sources */,
 				6E4174AF183E739400B3DD67 /* ResponseTabViewController.m in Sources */,

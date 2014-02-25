@@ -2,8 +2,8 @@
 //  Settings.m
 //  Questionnaire
 //
-//  Created by Thomas Sherwood on 27/11/2013.
-//  Copyright (c) 2013 Thomas Sherwood. All rights reserved.
+//  Created by Thomas Sherwood on 25/02/2014.
+//  Copyright (c) 2014 Thomas Sherwood. All rights reserved.
 //
 
 #import "Settings.h"
@@ -12,8 +12,8 @@
 
 @implementation Settings
 
-@dynamic usePasscode;
 @dynamic passcodeAsString;
+@dynamic usePasscode;
 @dynamic app;
 
 @end

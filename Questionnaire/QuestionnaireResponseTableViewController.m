@@ -109,8 +109,8 @@
 	switch(indexPath.row)
 	{
 		case 0:
-			cell.textLabel.text = @"Name";
-			cell.detailTextLabel.text = [NSString stringWithFormat:@"%@ %@", [info respondantForename], [info respondantSurname]];
+			cell.textLabel.text = @"Identifier";
+			cell.detailTextLabel.text = [info respondantIdentifier];
 			break;
 			
 		case 1:

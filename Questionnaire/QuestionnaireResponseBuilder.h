@@ -16,11 +16,8 @@
 
 #pragma mark - Properties
 
-/// Gets or sets the forename of the respondee.
-@property (nonatomic, strong) NSString* forename;
-
-/// Gets or sets the surname of the respondee.
-@property (nonatomic, strong) NSString* surname;
+/// Gets or sets the identifier of the respondee.
+@property (nonatomic, strong) NSString* identifier;
 
 /// Gets or sets the date of birth of the respondee.
 @property (nonatomic, strong) NSDate* dateOfBirth;

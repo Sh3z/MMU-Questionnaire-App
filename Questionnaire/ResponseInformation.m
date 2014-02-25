@@ -2,8 +2,8 @@
 //  ResponseInformation.m
 //  Questionnaire
 //
-//  Created by Thomas Sherwood on 27/11/2013.
-//  Copyright (c) 2013 Thomas Sherwood. All rights reserved.
+//  Created by Thomas Sherwood on 25/02/2014.
+//  Copyright (c) 2014 Thomas Sherwood. All rights reserved.
 //
 
 #import "ResponseInformation.h"
@@ -12,13 +12,12 @@
 
 @implementation ResponseInformation
 
+@dynamic hasSeen;
 @dynamic locationQuestioned;
 @dynamic respondantDateOfBirth;
-@dynamic respondantForename;
-@dynamic respondantSurname;
 @dynamic timeBegan;
 @dynamic timeCompleted;
-@dynamic hasSeen;
+@dynamic respondantIdentifier;
 @dynamic response;
 
 @end

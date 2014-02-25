@@ -109,7 +109,7 @@
 	
 	if(_response)
 	{
-		[mc setSubject:[NSString stringWithFormat:@"Questionnaire Response from %@ %@", [[_response responseDetails] respondantForename], [[_response responseDetails] respondantSurname]]];
+		[mc setSubject:[NSString stringWithFormat:@"Questionnaire Response (ID: %@)", [[_response responseDetails] respondantIdentifier]]];
 	}
 	else
 	{
@@ -129,8 +129,8 @@
 	if(_response)
 	{
 		ResponseInformation* info = [_response responseDetails];
-		NSString *forname = [info respondantForename], *surname = [info respondantSurname];
-		self.navigationItem.title = [NSString stringWithFormat: @"Viewing Response from %@ %@", forname, surname];
+		NSString *identifier = [info respondantIdentifier];
+		self.navigationItem.title = [NSString stringWithFormat: @"Viewing Response from ID %@", identifier];
 		
 		if([responseView response] == nil)
 		{

@@ -38,7 +38,7 @@
 
 #pragma mark - Properties
 
-@synthesize forename, surname, dateOfBirth;
+@synthesize identifier, dateOfBirth;
 
 
 #pragma mark - Methods
@@ -61,8 +61,7 @@
 	
 	// Create and add all the response information.
 	ResponseInformation* info = [[CoreDataAssistant instance] createResponseInformation];
-	[info setValue:forename forKey:@"respondantForename"];
-	[info setValue:surname forKey:@"respondantSurname"];
+	[info setValue:identifier forKey:@"respondantIdentifier"];
 	[info setValue:dateOfBirth forKey:@"respondantDateOfBirth"];
 	[info setValue:_startTime forKey:@"timeBegan"];
 	[info setValue:_endTime forKey:@"timeCompleted"];
